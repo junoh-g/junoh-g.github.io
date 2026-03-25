@@ -23,7 +23,7 @@ jobs:
     - name: Hello
       run: echo 'Hello World !!!'
 
-deploy:
+  deploy:
     needs: build
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
@@ -35,4 +35,4 @@ deploy:
     steps:
     - name: Deploy to GitHub Pages
       id: deployment
-      uses: actions/deploy-pages@v4       
+      uses: actions/deploy-pages@v4
