@@ -1,0 +1,8 @@
+site_name: Mon stage informatique 
+nav:
+  - Accueil: index.md
+  - Markdown: markDown.md 
+  - Info: 
+    - premierJour.md
+    - deuxiemeJour.md 
+theme: readthedocs

@@ -1,0 +1,24 @@
+# Nom du pipeline
+name: Mon premier pipeline
+
+# Critère d'exécution (trigger)
+on:
+  push:
+    branches: [ main ]
+
+# Le vrai pipeline
+jobs:
+  # Le nom de ton job (ce que tu veux)
+  test:
+    # Pas besoin d'y toucher
+    runs-on: ubuntu-latest
+
+    # Liste des étapes de ton pipeline
+    steps:
+    # Récupérer le code (on le fait toujours)
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Hello
+      run: echo 'Hello !'
