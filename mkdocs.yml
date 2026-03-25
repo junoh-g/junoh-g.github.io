@@ -3,6 +3,6 @@ nav:
   - Accueil: index.md
   - Markdown: markDown.md 
   - Info: 
-    - premierJour.md
-    - deuxiemeJour.md 
+    - Premier jour: premierJour.md
+    - Deuxieème jour: deuxiemeJour.md 
 theme: readthedocs
