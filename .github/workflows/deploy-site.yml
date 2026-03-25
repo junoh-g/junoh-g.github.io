@@ -35,7 +35,7 @@ jobs:
         path: ./site
         name: github-pages
   
-  deploy:
+deploy:
     needs: build
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
