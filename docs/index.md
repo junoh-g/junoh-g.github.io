@@ -4,4 +4,5 @@
 >>###### ***scratch***: Langage pour les débutants avec des blocs de mot. 
 
 ## Mon avis
-Tout le monde est très sympatique.
+Tout est calme et il y a des règles à respecter, comme la masculinité de pipeline.
+# LE PIPELINE!!!
