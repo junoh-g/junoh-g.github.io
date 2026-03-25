@@ -24,7 +24,7 @@ jobs:
       run: echo 'Hello World !!!'
 
   deploy:
-    needs: build
+    needs: deploy
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
     
