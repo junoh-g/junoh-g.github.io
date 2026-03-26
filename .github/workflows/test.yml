@@ -35,7 +35,7 @@ jobs:
     - name: goudbye
       run: echo 'Goodbye World.'
 
-  salut bien la famille:
+  salutbienlafamille:
     runs-on: ubuntu-latest
     
     steps:
