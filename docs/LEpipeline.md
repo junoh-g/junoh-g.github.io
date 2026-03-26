@@ -1,15 +1,23 @@
-name: Deploy Documentation
+# Le pipeline 
+Ceci est un pipeline standart qui sert à construire et deployer le deployement plus rapidement car cela le fait les deux en même temps. 
 
+#### Les dièses sont la pour expliquer ce que c'est.
+```
+# C'est le nom du pipeline
+name: Deploy Documentation
+# C'est la gachette qui demarre le pipeline
 on:
   push:
-    branches: [ new-branche ]
+  # La branche avec le quel on veut déployer
+    branches: [ main ]
   
 permissions:
   contents: read
   pages: write
   id-token: write
-
+# Ce qu'il doit faire 
 jobs:
+# La tâche qu'il fait en même temps que deploy
   build:
     runs-on: ubuntu-latest
     
@@ -48,3 +56,4 @@ jobs:
     - name: Deploy to GitHub Pages
       id: deployment
       uses: actions/deploy-pages@v4
+      ```

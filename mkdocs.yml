@@ -2,7 +2,13 @@ site_name: Mon stage informatique
 nav:
   - Accueil: index.md
   - Markdown: markDown.md 
-  - Info: 
-    - Premier jour: premierJour.md
-    - Deuxième jour: deuxiemeJour.md
+  - Info:
+    - Journal de bord: 
+      - Premier jour: premierJour.md
+      - Deuxième jour: deuxiemeJour.md
+      - Troisième jour: troisièmeJour.md
+      - Quatrième jour: quatrièmeJour.md
+      - Cinqième jour: cinqièmeJour.md
+  - Appris:
+    - Pipeline: LEpipeline.md   
 theme: readthedocs

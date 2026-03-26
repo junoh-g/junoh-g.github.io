@@ -1,0 +1,3 @@
+# Troisième jour
+
+Tout ce passe bien. La journé commence par des petites guafrettes qui étaient très sucrés car normalement on devait les manger avec le café mais heureusement je ne suis pas tombé malade. Revenons au principale, j'ai appris à faire et comprendre un pipeline. Vous pouvez le voir mon pipeline. Pour moi le compendre est plus dur que de le faire, car il y a des ligne de code que je ne comprend pas mais si je les efface tout le système ne marcherait pas, mais j'ai compris les bases et je sais ce qu'il fait. Tout cela je l'ai fait en markdown.  
