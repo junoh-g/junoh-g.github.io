@@ -59,7 +59,7 @@ jobs:
       run: echo 'Cioa'
 
   rebonjour:
-    needs: salut; hello
+    needs: salut
     runs-on: ubuntu-latest
 
     steps:
