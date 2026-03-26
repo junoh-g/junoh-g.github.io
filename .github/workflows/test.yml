@@ -39,5 +39,12 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - name: salut bien la famille 
+    - name: salutbienlafamille 
       run: echo 'Salut bien la famille.'
+  
+  byebye: 
+    runs-on: ubuntu-latest
+
+    stepd: 
+    - name: byebye
+      run: echo 'Bye Bye'
