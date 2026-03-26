@@ -43,7 +43,7 @@ jobs:
       run: echo 'Salut bien la famille.'
   
   byebye: 
-    needs:
+    needs: salutbienlafamille
     runs-on: ubuntu-latest
 
     steps: 
