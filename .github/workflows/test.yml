@@ -27,9 +27,8 @@ jobs:
     steps: 
       - name: salut
         run: echo 'Salut'
-        
+
   goodbye:
-    needs: hello
     runs-on: ubuntu-latest
     
     steps:
