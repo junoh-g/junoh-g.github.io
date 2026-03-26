@@ -2,7 +2,7 @@ name: Deploy Documentation
 
 on:
   push:
-    branches: [ new-branche ]
+    branches: [ new-branch ]
   
 permissions:
   contents: read
