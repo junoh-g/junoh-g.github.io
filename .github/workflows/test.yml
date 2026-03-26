@@ -45,6 +45,6 @@ jobs:
   byebye: 
     runs-on: ubuntu-latest
 
-    stepd: 
+    steps: 
     - name: byebye
       run: echo 'Bye Bye'
