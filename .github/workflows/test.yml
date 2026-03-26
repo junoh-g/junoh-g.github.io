@@ -57,3 +57,11 @@ jobs:
     steps:
     - name: ciao
       run: echo 'Cioa'
+
+  rebonjour:
+    needs: salut
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: rebonjour
+      run: echo 'Re Bonjour'
