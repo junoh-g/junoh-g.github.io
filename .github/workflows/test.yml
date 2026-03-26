@@ -55,5 +55,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - names: ciao
+    - name: ciao
       run: echo 'Cioa'
