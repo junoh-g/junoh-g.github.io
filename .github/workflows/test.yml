@@ -49,3 +49,11 @@ jobs:
     steps: 
     - name: byebye
       run: echo 'Bye Bye'
+
+  ciao:
+    needs: salutbienlafamille
+    runs-on: ubuntu-latest
+
+    steps:
+    - names: ciao
+      run: echo 'Cioa'
