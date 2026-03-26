@@ -26,11 +26,18 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: salut
-        run: echo 'Salut'
+        run: echo 'Salut!!!'
 
   goodbye:
     runs-on: ubuntu-latest
     
     steps:
-    - name:
-      run: echo 'Goodbye World'
+    - name: goudbye
+      run: echo 'Goodbye World.'
+
+  salut bien la famille:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: salut bien la famille 
+      run: echo 'Salut bien la famille.'
