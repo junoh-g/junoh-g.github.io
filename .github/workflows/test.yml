@@ -4,7 +4,7 @@ name: Mon premier pipeline
 # Critère d'exécution (trigger)
 on:
   push:
-    branches: [ new-branch ]
+    branches: [ main ]
 
 # Le vrai pipeline
 jobs:
