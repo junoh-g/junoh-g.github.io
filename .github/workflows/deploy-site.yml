@@ -35,7 +35,7 @@ jobs:
         name: github-pages
    
   deploy:
-    needs: 
+    needs: build 
     runs-on: ubuntu-latest
     
     environment:
